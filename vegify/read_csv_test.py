@@ -11,5 +11,5 @@ location_of_Menu_Item_Ingrediants = '/home/maksim/Documents/School/CS 469 - Caps
 class TestRead_Csv(unittest.TestCase):
 
     def test_open_read_csv_file() -> None:
-        assert read_csv.open_read_csv_file(location_of_skus) == file
-        self.assertIsInstance(result, csv.Dialect(csv_file))
+        print("testing")
+        assert 1==0 # Let this fail
