@@ -1,4 +1,4 @@
-menu Food,Ingredient 1 alternative,Ingredient 2 alternative,Ingredient 3 Alternative,Ingredient 4 Alternative,Ingredient 5 Alternative
-The least vegan Burger,Beyond Meat Burger Patty,Good Planet 1.5 LB American Cheese Slices,Hellmanns 1 Gallon Vegan Mayo 4 count,N/A,N/A
-The cheesiest Pizza,Good Planet 5lb Vegan Mozzarella Cheese 4 count,N/A,N/A,N/A,N/A
-The least vegan Taco on the Menu,Beyond Meat Beef Crumble,N/A,N/A,N/A,N/A
+Target Food,ingredient 1,ingredient 2,ingredient 3,ingredient 4,Ingredient 5
+A Specific Burger,Beyond Meat Burger Patty,Good Planet 1.5 LB American Cheese Slices,Hellmanns 1 Gallon Vegan Mayo 4 count,N/A,N/A
+A Specific Pizza,Good Planet 5lb Vegan Mozzarella Cheese 4 count,N/A,N/A,N/A,N/A
+A Taco on the Menu,Beyond Meat Beef Crumble,N/A,N/A,N/A,N/A

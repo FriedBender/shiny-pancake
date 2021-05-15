@@ -1,7 +1,7 @@
-Item,Item Description,SKU,Shopify Store Link
-Beyond Meat 2 lb. Plant-Based Vegan Ground Beyond Beef - 6/Case,Contains 100% no cows,123456,https://govegify.com/products/beyond-meat-2-lb-plant-based-vegan-ground-beyond-beef-6-case
-Beyond Meat Burger Patty,Cows Approve,6145615615,https://govegify.com/products/beyond-meat-burger-patty
-GOOD PLANeT 5IB Vegan Mozzarella Cheese 4 Count,Moo,1568156132,https://govegify.com/products/good-planet-5ib-vegan-mozzarella-cheese-4-count
-GOOD PLANeT 1.5 ib American Cheese Slices,"Moo, but in MURICA",48156,https://govegify.com/products/good-planet-1-5-ib-american-cheese-slices
-Hellmann's 1 Gallon Vegan Mayo 4Count,cant have a burger without it,156132,https://govegify.com/products/hellmanns-1-gallon-vegan-mayo-4count
-Beyond Meat Beef Crumble,Taco Tuesday,156132374,https://govegify.com/products/beyond-meat-beef-crumble
+Item,Item Description,SKU,Shopify Store Link,Price:
+Beyond Meat 2 lb. Plant-Based Vegan Ground Beyond Beef - 6/Case,Contains 100% no cows,123456,https://govegify.com/products/beyond-meat-2-lb-plant-based-vegan-ground-beyond-beef-6-case,$55.23
+Beyond Meat Burger Patty,Cows Approve,6145615615,https://govegify.com/products/beyond-meat-burger-patty,$75.27
+GOOD PLANeT 5IB Vegan Mozzarella Cheese 4 Count,Moo,1568156132,https://govegify.com/products/good-planet-5ib-vegan-mozzarella-cheese-4-count,$98.24
+GOOD PLANeT 1.5 ib American Cheese Slices,"Moo, but in MURICA",48156,https://govegify.com/products/good-planet-1-5-ib-american-cheese-slices,$102.15
+Hellmann's 1 Gallon Vegan Mayo 4Count,cant have a burger without it,156132,https://govegify.com/products/hellmanns-1-gallon-vegan-mayo-4count,$10.40
+Beyond Meat Beef Crumble,Taco Tuesday,156132374,https://govegify.com/products/beyond-meat-beef-crumble,$85.40
