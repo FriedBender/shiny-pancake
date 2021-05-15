@@ -1,6 +1,11 @@
 import csv
 import os
 
+# TODO: parse in such a way:
+# 0. Add another column that holds the price of the unit (as a whole) in itemSKUs.csv - Done
+# 1. dict: non vegan option maps to a vegan option, but with 1 key, multiple values
+# 2. dict: create another dictionary that reads in vegan options as keys, and values are price.
+
 
 def open_read_csv_file(file_to_read_in):
     # This function opens a file that is passed in determines the dialect (what format CSV file it is)
