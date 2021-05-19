@@ -7,7 +7,7 @@ import os
 # 2. dict: create another dictionary that reads in vegan options as keys, and values are price.
 
 
-def open_read_as_dict_csv_file(file_to_read_in):
+def open_read_csv_file(file_to_read_in):
     # This function opens a file that is passed in determines the dialect (what format CSV file it is)
     # Then opens the file, and resets the carriage return to top of file.
     # Then returns the file
@@ -36,6 +36,7 @@ def return_value_from_key(dictionary_object: dict, key: str, column: int) -> str
     # A key, for which you want to search
     # and which value you want to return
     # Note: If needed, this can be modified to take in a variable amount of arguments
+    #   https://stackoverflow.com/questions/919680/can-a-variable-number-of-arguments-be-passed-to-a-function
     return dictionary_object.get(key)[column]
 
 def print_dict(header, dictionary_object: dict) -> None:
@@ -52,7 +53,6 @@ def print_dict(header, dictionary_object: dict) -> None:
 
 
 if __name__ == "__main__":
-
     # Max's computer locations
     location_of_skus = '/home/maksim/Documents/School/CS 469 - Capstone I/playground/Vegify/itemSKUs.csv'
     location_of_Menu_Alternatives = '/home/maksim/Documents/School/CS 469 - Capstone I/playground/Vegify/MenuItemAlternatives.csv'
@@ -65,9 +65,9 @@ if __name__ == "__main__":
 
     # Create the csv objects
     # I should make this into a function with varying amount of arguments passed in.
-    skus_header, skus_csv = open_read_as_dict_csv_file(location_of_skus)
-    vegan_alternatives_header, vegan_alternatives_csv = open_read_as_dict_csv_file(location_of_Menu_Alternatives)
-    menu_Ingrediants_header, menu_Ingrediants_csv = open_read_as_dict_csv_file(location_of_Menu_Item_Ingrediants)
+    skus_header, skus_csv = open_read_csv_file(location_of_skus)
+    vegan_alternatives_header, vegan_alternatives_csv = open_read_csv_file(location_of_Menu_Alternatives)
+    menu_Ingrediants_header, menu_Ingrediants_csv = open_read_csv_file(location_of_Menu_Item_Ingrediants)
 
     # create dictionary values
     # I should make this into a function with varying amount of arguments passed in.
