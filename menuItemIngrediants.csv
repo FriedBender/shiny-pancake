@@ -1,10 +1,4 @@
-Type of Meat,Alternative 1,Alternative 2,Alternative 3,Alternative 4,Unit Price without Alternatives,Unit Price Vegan
-Beef,"Beyond Meat 2 lb. Plant-Based Vegan Ground Beyond Beef - 6/Case
-",N/A,N/A,N/A,$8.00,$6.50
-Angus,Beyond Meat Burger Patty,N/A,N/A,N/A,$15.00,$10.00
-Burger Patty,Beyond Meat Burger Patty,Gardein Black Bean Veggie Burger,N/A,N/A,$3.00,$4.00
-Mozzerella,GOOD PLANeT 5IB Vegan Mozzarella Cheese 4 Count,N/A,N/A,N/A,$9.00,$5.00
-American Cheese,GOOD PLANeT 1.5 ib American Cheese Slices,N/A,N/A,N/A,$5.56,$5.56
-Aioli,Hellmann's 1 Gallon Vegan Mayo 4Count,N/A,N/A,N/A,$4.00,$3.50
-Mayo,Hellmann's 1 Gallon Vegan Mayo 4Count,N/A,N/A,N/A,$25.00,$20.00
-Carne,Beyond Meat Beef Crumble,N/A,N/A,N/A,$145.00,$15.00
+Target Food,ingredient 1,ingredient 2,ingredient 3,ingredient 4,Ingredient 5
+A Specific Burger,Beyond Meat Burger Patty,GOOD PLANeT 1.5 ib American Cheese Slices,Hellmann's 1 Gallon Vegan Mayo 4Count,N/A,N/A
+A Specific Pizza,GOOD PLANeT 5IB Vegan Mozzarella Cheese 4 Count,N/A,N/A,N/A,N/A
+A Taco on the Menu,Beyond Meat Beef Crumble,N/A,N/A,N/A,N/A

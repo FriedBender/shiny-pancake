@@ -1,4 +1,9 @@
-Target Food,ingredient 1,ingredient 2,ingredient 3,ingredient 4,Ingredient 5
-A Specific Burger,Beyond Meat Burger Patty,Good Planet 1.5 LB American Cheese Slices,Hellmanns 1 Gallon Vegan Mayo 4 count,N/A,N/A
-A Specific Pizza,Good Planet 5lb Vegan Mozzarella Cheese 4 count,N/A,N/A,N/A,N/A
-A Taco on the Menu,Beyond Meat Beef Crumble,N/A,N/A,N/A,N/A
+Type of Meat,Alternative 1,Alternative 2,Alternative 3,Alternative 4
+Beef,Beyond Meat 2 lb. Plant-Based Vegan Ground Beyond Beef - 6/Case,N/A,N/A,N/A
+Angus,Beyond Meat Burger Patty,N/A,N/A,N/A
+Burger Patty,Beyond Meat Burger Patty,Gardein Black Bean Veggie Burger,N/A,N/A
+Mozzerella,GOOD PLANeT 5IB Vegan Mozzarella Cheese 4 Count,N/A,N/A,N/A
+American Cheese,GOOD PLANeT 1.5 ib American Cheese Slices,N/A,N/A,N/A
+Aioli,Hellmann's 1 Gallon Vegan Mayo 4Count,N/A,N/A,N/A
+Mayo,Hellmann's 1 Gallon Vegan Mayo 4Count,N/A,N/A,N/A
+Carne,Beyond Meat Beef Crumble,N/A,N/A,N/A

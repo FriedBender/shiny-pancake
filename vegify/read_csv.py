@@ -25,10 +25,18 @@ def create_dictionary_object(csv_object) -> dict:
         key = row[0]
         if key in dictionary_object:
             # Need to figure out duplicate row handling here.
+            # I will make duplicate rows append to the existing key
             pass
         dictionary_object[key] = row[1:]
     return dictionary_object
 
+
+def return_value_from_key(dictionary_object: dict, key: str, column: int) -> str:
+    # This will take in a dictionary from which you want to search the key
+    # A key, for which you want to search
+    # and which value you want to return
+    # Note: If needed, this can be modified to take in a variable amount of arguments
+    return dictionary_object.get(key)[column]
 
 def print_dict(header, dictionary_object: dict) -> None:
     # Theoretically, this function is going to print out a pretty version of the
@@ -36,8 +44,9 @@ def print_dict(header, dictionary_object: dict) -> None:
     print("\n")
     print(f'{header}')
     for key, value in dictionary_object.items():
-        print(f'Key: {key} --- Value: {value}')
+        print(f'Key: {key} ---> Value: {value}')
     print("\n")
+
 
 
 
@@ -55,21 +64,14 @@ if __name__ == "__main__":
     mac_location_of_Menu_Item_Ingrediants = '/Users/max/Desktop/shiny-pancake/menuItemIngrediants.csv'
 
     # Create the csv objects
-    skus_header, skus_csv = open_read_as_dict_csv_file(mac_location_of_skus)
-    vegan_alternatives_header, vegan_alternatives_csv = open_read_as_dict_csv_file(mac_location_of_Menu_Alternatives)
-    menu_Ingrediants_header, menu_Ingrediants_csv = open_read_as_dict_csv_file(mac_location_of_Menu_Item_Ingrediants)
+    # I should make this into a function with varying amount of arguments passed in.
+    skus_header, skus_csv = open_read_as_dict_csv_file(location_of_skus)
+    vegan_alternatives_header, vegan_alternatives_csv = open_read_as_dict_csv_file(location_of_Menu_Alternatives)
+    menu_Ingrediants_header, menu_Ingrediants_csv = open_read_as_dict_csv_file(location_of_Menu_Item_Ingrediants)
 
     # create dictionary values
+    # I should make this into a function with varying amount of arguments passed in.
     skus_dictionary_structure = create_dictionary_object(skus_csv)
     vegan_alternatives_dictionary_structure = create_dictionary_object(vegan_alternatives_csv)
     menu_Ingrediants_dictionary_structure = create_dictionary_object(menu_Ingrediants_csv)
-    
-    # Print all dictionary objects
-    print_dict(skus_header, skus_dictionary_structure)
-    print_dict(vegan_alternatives_header, vegan_alternatives_dictionary_structure)
-    print_dict(menu_Ingrediants_header, menu_Ingrediants_dictionary_structure)
 
-    # example to get the price of Beyond Meat Burger Patty
-    item = skus_dictionary_structure.get('Beyond Meat Burger Patty')
-    # How to access the price of the sku object
-    print(f'\n\n\n\nitem: {item[3]}\n\n')
